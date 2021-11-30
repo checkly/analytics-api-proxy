@@ -8,7 +8,7 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "Host", "value": "api.segment.com" }
+        { "key": "Host", "value": "api.segment.io" }
       ]
     }
   ],
