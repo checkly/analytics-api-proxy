@@ -4,10 +4,18 @@
   "build": {
     "env": {}
   },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Host", "value": "api.segment.com" }
+      ]
+    }
+  ],
   "rewrites": [
     {
-      "source": "/:path",
-      "destination": "https://api.segment.com/:path"
+      "source": "/:path*",
+      "destination": "https://api.segment.com/:path*"
     }
   ]
 }
