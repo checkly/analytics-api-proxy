@@ -1,0 +1,13 @@
+{
+  "name": "analytics-api-proxy",
+  "scope": "checkly",
+  "build": {
+    "env": {}
+  },
+  "rewrites": [
+    {
+      "source": "/:match*)",
+      "destination": "https://api.segment.com/:match*"
+    }
+  ]
+}
