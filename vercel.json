@@ -15,7 +15,7 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "https://api.segment.com/:path*"
+      "destination": "https://api.segment.io/:path*"
     }
   ]
 }
