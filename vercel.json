@@ -6,8 +6,8 @@
   },
   "rewrites": [
     {
-      "source": "/:match*)",
-      "destination": "https://api.segment.com/:match*"
+      "source": "/:path*)",
+      "destination": "https://api.segment.com/:path*"
     }
   ]
 }
